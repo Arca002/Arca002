@@ -1,0 +1,3 @@
+- 👋 Hi, I’m @Arca
+-  // Inicializar librerías #include #include #include // Declarar variables int ancho_pantalla = 800; int alto_pantalla = 600; int velocidad_carro = 10; // Declarar punteros SDL_Window *ventana = NULL; SDL_Renderer *renderizador = NULL; SDL_Textura *textura_carro = NULL; // Función principal int main(int argc, char *args[]) { // Inicializar SDL if (SDL_Init(SDL_INIT_VIDEO) < 0) { std::cout << "Error al inicializar SDL: " << SDL_GetError() < < std::endl; devolver 1; } // Crear la ventana ventana = SDL_CreateWindow("Juego de carros", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, ancho_pantalla, alto_pantalla, SDL_WINDOW_SHOWN); if (ventana == NULL) { std::cout << "
+-  
